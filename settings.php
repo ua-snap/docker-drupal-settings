@@ -643,3 +643,7 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * @see drupal_clean_css_identifier()
  */
 # $conf['allow_css_double_underscores'] = TRUE;
+
+// Disable page compression
+// http://www.sysarchitects.com/drupal-7-and-cannot-decode-raw-data-nsurlerrordomain-1015
+$conf['page_compression'] = FALSE;
